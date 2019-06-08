@@ -15,6 +15,19 @@ https://www.uow.edu.au/~wanqing/#Datasets
 
 
 ## Code
-**MSRAction3DSkeleton(20joints) Dataset Reading and Creating Animation** ([Jupyter Notebook](MSRAction3D_Dataset_Reading_Visualization.ipynb))
+- **MSRAction3DSkeleton(20joints) Dataset Reading and Creating Animation** ([Jupyter Notebook](MSRAction3D_Dataset_Reading_Visualization.ipynb))
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yavuzKomecoglu/MSR-Action-Recognition/blob/master/MSRAction3D_Dataset_Reading_Visualization.ipynb)
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yavuzKomecoglu/MSR-Action-Recognition/blob/master/MSRAction3D_Dataset_Reading_Visualization.ipynb)
+
+
+- **Skeleton Visualizer**
+
+    Usage visualizer e.g.:
+
+    animate3D_20joints.py 18 1 1
+    ```
+    python3 animate3D_20joints.py <action> <subject> <instance>
+
+    ```
+
+
